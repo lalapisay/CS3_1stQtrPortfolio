@@ -1,11 +1,9 @@
-let Age;
+function checkResult() {
+    let maxAge = document.getElementById("maxAge").value;
+    let age = document.getElementById("age").value;
+    let numPerday = document.getElementById("numPerday").value;
 
-let maxAge;
+    let totalRequired =  (Number(numPerday) * 365) * (Number(maxAge) - Number(age));
 
-let numPerDay;
-
-let totalRequired;
-totalRequired =  (numPerDay * 365) * (maxAge - Age);
-
-let answer = "You'll need " + totalRequired + " chocolates to last you until the age of " + maxAge;
-document.write(answer);
+    document.getElementById("res").innerHTML = `<b>you will need ${totalRequired} to last you until the ripe age of ${maxAge} </b>`;
+}
