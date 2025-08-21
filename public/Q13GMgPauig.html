@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2> Q1 3rd Graded Exercise submitted by Leonella Agnelly Pauig of 9Magnesium</h2>
+        Guess the number: ****
+        <p>The number is in between 1 and 100.</p>
+        <label> Enter your guess: 
+        <input id="guess"  />
+         <button onclick="checkIt()"> Check it</button>
+        <p><span id="answ"></span></p>
+         
+         <script>
+            var dNumber = Math.floor(Math.random() * 100) + 1;
+            
+            function checkIt(){
+                let guess = Number(document.getElementById("guess").value);
+
+                if(guess == dNumber){
+                    document.getElementById("answ").innerHTML = "Correct!";
+                }
+
+                if(guess > dNumber){
+                    document.getElementById("answ").innerHTML = "Lower...";
+                }
+
+                if(guess < dNumber){
+                    document.getElementById("answ").innerHTML = "Higher...";
+                }
+
+            }
+         </script>
+         <footer> 
+            <p> References: </p>
+            <p>w3schools. (2019). JavaScript if else else if. W3schools.com. https://www.w3schools.com/js/js_if_else.asp</p>
+         </footer>
+    </body>
+</html>
