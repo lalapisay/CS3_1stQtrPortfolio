@@ -2,7 +2,7 @@
 
 > List and describe at least 5 topics that we discussed in class that you know very well. Each description should be at least 1 paragraph with twoto five sentences.
 
-1. Java Script's basic statements - I understood this method immediately while it was being thought because the statements' names correspond to their function. I didn't need to memorize a long fancy code just to get my text to appear on an alert window or my button to appear on the website itself.
+1. Java Script's basic statements - I understood this lesson immediately while it was being thought because the statements' names correspond to their function. I didn't need to memorize a long fancy code just to get my text to appear on an alert window or my button to appear on the website itself.
 2. Control statements - The control statements of JS are incredibly identical to the control statements of C++, so I was able to get the lesson immediately. This lesson was basically just a review lesson for me.
 3. Variable Declaration - This lesson was very simple for me because it just focused on the different uses for each variable delcaration type. The exercises and graded assesments we did this quarter also helped me broaden my understanding for each type of variable declaration.
 4. Java Script Operations - Again, this lesson was easy for me because it was extremely identical to C++. I did have a hard time initially at comparison operators, but I was able to understand it soon enough as it kept getting reused and mentioned in lessons.
